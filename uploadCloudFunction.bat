@@ -1,0 +1,1 @@
+"D:\微信web开发者工具\cli.bat" cloud functions deploy --e yuandao2-1gzrbfqbdae26fd3 --n quickstartFunctions --r --project "D:\微信开发\yuandao0.2" --report_first --report

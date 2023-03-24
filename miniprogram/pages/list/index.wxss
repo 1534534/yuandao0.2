@@ -1,0 +1,49 @@
+.toast {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #858181;
+}
+
+.join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(64, 218, 64);
+    width: 400rpx;
+    height: 100rpx;
+    margin: 40rpx auto;
+    border-radius: 10rpx;
+    color: white;
+
+}
+
+.txt {
+    display: flex;
+    width: 92%;
+    padding: 3px;
+    margin-left: 10px;
+}
+
+.title {
+    font-size: 13px;
+   
+    color: #6d6868;
+}
+
+.info {
+    padding-left: 15px;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+}
+.page{
+background-color: #ede2e2;
+}
+.card{
+    background-color: #fff;
+    border-radius: 5px solid #000;
+    margin: 25px;
+    box-shadow: 0 5px 5px #c7c2c2;
+}

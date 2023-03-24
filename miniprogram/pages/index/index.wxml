@@ -1,0 +1,13 @@
+<view >
+    <view class="cover">
+        <image src="../../images/logo.png" class="logo" />
+    </view>
+    <view class="title" bind:tap="Change">{{hello}}</view>
+</view>
+<view class="txt">这是元岛0.2版本</view>
+<view class="btn">
+    <navigator wx:if="{{!groupId}}" class="join" url="/pages/list/index">加入小组</navigator>
+    <navigator wx:if="{{!groupId}}" class="join" url="/pages/form/index">创建小组</navigator>
+    <navigator wx:if="{{!groupId}}" class="join" url="/pages/tip/index">其他小组</navigator>
+    <navigator wx:if="{{groupId}}" class="join" url="/pages/group/index">我的小组</navigator>
+</view>
